@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "LLM Context Assistant",
+  "version": "1.0",
+  "description": "Right-click to run LLM on selected text.",
+  "permissions": ["contextMenus", "scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [],
+  "action": {
+    "default_title": "LLM Context Assistant"
+  }
+}
