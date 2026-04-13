@@ -144,4 +144,4 @@ This repo is intentionally minimal. If you're polishing it for production/demo:
 
 ## 📝 License
 
-MIT (or your choice)
+MIT
